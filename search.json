@@ -1,0 +1,44 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "SunghyeData.github.io",
+    "section": "",
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "Homework.html",
+    "href": "Homework.html",
+    "title": "SunghyeData.github.io",
+    "section": "",
+    "text": "data(anscombe) # Load Anscombe’s data View(anscombe) # View the data summary(anscombe)\n\n\n\n\nplot(anscombe$x1,anscombe$y1) \n\n\n\nsummary(anscombe)\n\n       x1             x2             x3             x4           y1        \n Min.   : 4.0   Min.   : 4.0   Min.   : 4.0   Min.   : 8   Min.   : 4.260  \n 1st Qu.: 6.5   1st Qu.: 6.5   1st Qu.: 6.5   1st Qu.: 8   1st Qu.: 6.315  \n Median : 9.0   Median : 9.0   Median : 9.0   Median : 8   Median : 7.580  \n Mean   : 9.0   Mean   : 9.0   Mean   : 9.0   Mean   : 9   Mean   : 7.501  \n 3rd Qu.:11.5   3rd Qu.:11.5   3rd Qu.:11.5   3rd Qu.: 8   3rd Qu.: 8.570  \n Max.   :14.0   Max.   :14.0   Max.   :14.0   Max.   :19   Max.   :10.840  \n       y2              y3              y4        \n Min.   :3.100   Min.   : 5.39   Min.   : 5.250  \n 1st Qu.:6.695   1st Qu.: 6.25   1st Qu.: 6.170  \n Median :8.140   Median : 7.11   Median : 7.040  \n Mean   :7.501   Mean   : 7.50   Mean   : 7.501  \n 3rd Qu.:8.950   3rd Qu.: 7.98   3rd Qu.: 8.190  \n Max.   :9.260   Max.   :12.74   Max.   :12.500"
+  },
+  {
+    "objectID": "Homework.html#anscombe-1973-quartlet",
+    "href": "Homework.html#anscombe-1973-quartlet",
+    "title": "SunghyeData.github.io",
+    "section": "",
+    "text": "data(anscombe) # Load Anscombe’s data View(anscombe) # View the data summary(anscombe)"
+  },
+  {
+    "objectID": "Homework.html#simple-version",
+    "href": "Homework.html#simple-version",
+    "title": "SunghyeData.github.io",
+    "section": "",
+    "text": "plot(anscombe$x1,anscombe$y1) \n\n\n\nsummary(anscombe)\n\n       x1             x2             x3             x4           y1        \n Min.   : 4.0   Min.   : 4.0   Min.   : 4.0   Min.   : 8   Min.   : 4.260  \n 1st Qu.: 6.5   1st Qu.: 6.5   1st Qu.: 6.5   1st Qu.: 8   1st Qu.: 6.315  \n Median : 9.0   Median : 9.0   Median : 9.0   Median : 8   Median : 7.580  \n Mean   : 9.0   Mean   : 9.0   Mean   : 9.0   Mean   : 9   Mean   : 7.501  \n 3rd Qu.:11.5   3rd Qu.:11.5   3rd Qu.:11.5   3rd Qu.: 8   3rd Qu.: 8.570  \n Max.   :14.0   Max.   :14.0   Max.   :14.0   Max.   :19   Max.   :10.840  \n       y2              y3              y4        \n Min.   :3.100   Min.   : 5.39   Min.   : 5.250  \n 1st Qu.:6.695   1st Qu.: 6.25   1st Qu.: 6.170  \n Median :8.140   Median : 7.11   Median : 7.040  \n Mean   :7.501   Mean   : 7.50   Mean   : 7.501  \n 3rd Qu.:8.950   3rd Qu.: 7.98   3rd Qu.: 8.190  \n Max.   :9.260   Max.   :12.74   Max.   :12.500"
+  },
+  {
+    "objectID": "Homework.html#fancy-version-per-help-file",
+    "href": "Homework.html#fancy-version-per-help-file",
+    "title": "SunghyeData.github.io",
+    "section": "Fancy version (per help file)",
+    "text": "Fancy version (per help file)\n\nff &lt;- y ~ x \nmods &lt;- setNames(as.list(1:4), paste0(\"lm\", 1:4))"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "SunghyeData.github.io",
+    "section": "",
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
+  }
+]
