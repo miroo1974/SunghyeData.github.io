@@ -40,5 +40,19 @@
     "title": "SunghyeData.github.io",
     "section": "",
     "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "Homework.html#generative-art",
+    "href": "Homework.html#generative-art",
+    "title": "SunghyeData.github.io",
+    "section": "2. Generative Art",
+    "text": "2. Generative Art\n\nGyre 35700 by Mark Stock\nThis work visually and beautifully expresses natural patterns by simulating currents and eddies in the ocean with “computer code.” The movement in the ocean is still being studied to see how it affects global climate change, and this research can be used to help understand visually.\n\nMiniCityArt by Mark Stock\nThis is an artistically created scale model of a city using “3D printing” technology. These technologies can be used in fields such as architecture and urban construction to help understand."
+  },
+  {
+    "objectID": "Homework.html#write-a-critique-on-a-chart-in-published-work",
+    "href": "Homework.html#write-a-critique-on-a-chart-in-published-work",
+    "title": "SunghyeData.github.io",
+    "section": "4. Write a critique on a chart in published work",
+    "text": "4. Write a critique on a chart in published work\nAccording to Nathan Yau, axes in a chart can significantly influence the interpretation of data, potentially distorting the intended message. For example, if the Y-axis range is artificially scaled down, variability in the data can be overemphasized, while if it is artificially scaled up, small differences can easily be overlooked. \nAverage Number of Actual Weekly Hours of Work in Main Job. Full-time employees. 2013\n\nThis bar chart was created by the German economic development agency GTAI. As we can see from this chart, German workers seem to work more hours than workers in other EU countries. The fact that Germany’s working hours are visually prominent compared to other countries in this chart seems to be intentional. The problem is that the starting point is 36, not 0. This chart should have been drawn with 0 included. \nThe graph below, redrawn with 0 included, shows that the differences in working hours between European countries are not that significant, even when visually observed.\nAverage Number of Actual Weekly Hours of Work in Main Job. Full-time employees. 2013"
   }
 ]
