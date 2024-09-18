@@ -157,6 +157,14 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
   <li><a href="#plot-charts-using-for-loop" id="toc-plot-charts-using-for-loop" class="nav-link" data-scroll-target="#plot-charts-using-for-loop">Plot charts using for loop</a>
   <ul class="collapse">
   <li><a href="#generative-art" id="toc-generative-art" class="nav-link" data-scroll-target="#generative-art">2. Generative Art</a></li>
+  <li><a href="#fall" id="toc-fall" class="nav-link" data-scroll-target="#fall">3. Fall</a></li>
+  <li><a href="#data-visualization" id="toc-data-visualization" class="nav-link" data-scroll-target="#data-visualization">Data Visualization</a></li>
+  <li><a href="#objective-create-graphics-with-r" id="toc-objective-create-graphics-with-r" class="nav-link" data-scroll-target="#objective-create-graphics-with-r">Objective: Create graphics with R</a></li>
+  <li><a href="#title-fall-color" id="toc-title-fall-color" class="nav-link" data-scroll-target="#title-fall-color">Title: Fall color</a></li>
+  </ul></li>
+  <li><a href="#credit-httpsfronkonstin.com" id="toc-credit-httpsfronkonstin.com" class="nav-link" data-scroll-target="#credit-httpsfronkonstin.com">Credit: https://fronkonstin.com</a></li>
+  <li><a href="#install-packages" id="toc-install-packages" class="nav-link" data-scroll-target="#install-packages">Install packages</a>
+  <ul class="collapse">
   <li><a href="#write-a-critique-on-a-chart-in-published-work" id="toc-write-a-critique-on-a-chart-in-published-work" class="nav-link" data-scroll-target="#write-a-critique-on-a-chart-in-published-work">4. Write a critique on a chart in published work</a></li>
   </ul></li>
   </ul>
@@ -446,6 +454,118 @@ x4          0.4999091  0.1178189 4.243028 0.002164602</code></pre>
 MiniCityArt by Mark Stock</p>
 <p>This is an artistically created scale model of a city using “3D printing” technology. These technologies can be used in fields such as architecture and urban construction to help understand.</p>
 </section>
+<section id="fall" class="level2">
+<h2 class="anchored" data-anchor-id="fall">3. Fall</h2>
+</section>
+<section id="data-visualization" class="level2">
+<h2 class="anchored" data-anchor-id="data-visualization">Data Visualization</h2>
+</section>
+<section id="objective-create-graphics-with-r" class="level2">
+<h2 class="anchored" data-anchor-id="objective-create-graphics-with-r">Objective: Create graphics with R</h2>
+</section>
+<section id="title-fall-color" class="level2">
+<h2 class="anchored" data-anchor-id="title-fall-color">Title: Fall color</h2>
+</section>
+</section>
+<section id="credit-httpsfronkonstin.com" class="level1">
+<h1>Credit: <a href="https://fronkonstin.com" class="uri">https://fronkonstin.com</a></h1>
+</section>
+<section id="install-packages" class="level1">
+<h1>Install packages</h1>
+<div class="cell">
+<div class="sourceCode cell-code" id="cb27"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb27-1"><a href="#cb27-1" aria-hidden="true" tabindex="-1"></a>axiom<span class="ot">=</span><span class="st">"X"</span></span>
+<span id="cb27-2"><a href="#cb27-2" aria-hidden="true" tabindex="-1"></a>rules<span class="ot">=</span><span class="fu">list</span>(<span class="st">"X"</span><span class="ot">=</span><span class="st">"F-[[X]+X]+F[+FX]-X"</span>, <span class="st">"F"</span><span class="ot">=</span><span class="st">"FF"</span>)</span>
+<span id="cb27-3"><a href="#cb27-3" aria-hidden="true" tabindex="-1"></a>angle<span class="ot">=</span><span class="fl">22.5</span></span>
+<span id="cb27-4"><a href="#cb27-4" aria-hidden="true" tabindex="-1"></a>depth<span class="ot">=</span><span class="dv">6</span></span>
+<span id="cb27-5"><a href="#cb27-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-6"><a href="#cb27-6" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(gsubfn)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Loading required package: proto</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Warning in doTryCatch(return(expr), name, parentenv, handler): unable to load shared object '/Library/Frameworks/R.framework/Resources/modules//R_X11.so':
+  dlopen(/Library/Frameworks/R.framework/Resources/modules//R_X11.so, 6): Library not loaded: /opt/X11/lib/libSM.6.dylib
+  Referenced from: /Library/Frameworks/R.framework/Versions/4.3-arm64/Resources/modules/R_X11.so
+  Reason: image not found</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>tcltk DLL is linked to '/opt/X11/lib/libX11.6.dylib'</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>Could not load tcltk.  Will use slower R code instead.</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb32"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb32-1"><a href="#cb32-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(stringr)</span>
+<span id="cb32-2"><a href="#cb32-2" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ggplot2)</span>
+<span id="cb32-3"><a href="#cb32-3" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(dplyr)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output cell-output-stderr">
+<pre><code>
+Attaching package: 'dplyr'</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>The following objects are masked from 'package:stats':
+
+    filter, lag</code></pre>
+</div>
+<div class="cell-output cell-output-stderr">
+<pre><code>The following objects are masked from 'package:base':
+
+    intersect, setdiff, setequal, union</code></pre>
+</div>
+<div class="sourceCode cell-code" id="cb36"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb36-1"><a href="#cb36-1" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> (i <span class="cf">in</span> <span class="dv">1</span><span class="sc">:</span>depth) axiom<span class="ot">=</span><span class="fu">gsubfn</span>(<span class="st">"."</span>, rules, axiom)</span>
+<span id="cb36-2"><a href="#cb36-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb36-3"><a href="#cb36-3" aria-hidden="true" tabindex="-1"></a>actions<span class="ot">=</span><span class="fu">str_extract_all</span>(axiom, <span class="st">"</span><span class="sc">\\</span><span class="st">d*</span><span class="sc">\\</span><span class="st">+|</span><span class="sc">\\</span><span class="st">d*</span><span class="sc">\\</span><span class="st">-|F|L|R|</span><span class="sc">\\</span><span class="st">[|</span><span class="sc">\\</span><span class="st">]|</span><span class="sc">\\</span><span class="st">|"</span>) <span class="sc">%&gt;%</span> unlist</span>
+<span id="cb36-4"><a href="#cb36-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb36-5"><a href="#cb36-5" aria-hidden="true" tabindex="-1"></a>status<span class="ot">=</span><span class="fu">data.frame</span>(<span class="at">x=</span><span class="fu">numeric</span>(<span class="dv">0</span>), <span class="at">y=</span><span class="fu">numeric</span>(<span class="dv">0</span>), <span class="at">alfa=</span><span class="fu">numeric</span>(<span class="dv">0</span>))</span>
+<span id="cb36-6"><a href="#cb36-6" aria-hidden="true" tabindex="-1"></a>points<span class="ot">=</span><span class="fu">data.frame</span>(<span class="at">x1 =</span> <span class="dv">0</span>, <span class="at">y1 =</span> <span class="dv">0</span>, <span class="at">x2 =</span> <span class="cn">NA</span>, <span class="at">y2 =</span> <span class="cn">NA</span>, <span class="at">alfa=</span><span class="dv">90</span>, <span class="at">depth=</span><span class="dv">1</span>)</span>
+<span id="cb36-7"><a href="#cb36-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb36-8"><a href="#cb36-8" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb36-9"><a href="#cb36-9" aria-hidden="true" tabindex="-1"></a><span class="co"># Generating data</span></span>
+<span id="cb36-10"><a href="#cb36-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Note: may take a minute or two</span></span>
+<span id="cb36-11"><a href="#cb36-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb36-12"><a href="#cb36-12" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> (action <span class="cf">in</span> actions)</span>
+<span id="cb36-13"><a href="#cb36-13" aria-hidden="true" tabindex="-1"></a>{</span>
+<span id="cb36-14"><a href="#cb36-14" aria-hidden="true" tabindex="-1"></a>  <span class="cf">if</span> (action<span class="sc">==</span><span class="st">"F"</span>)</span>
+<span id="cb36-15"><a href="#cb36-15" aria-hidden="true" tabindex="-1"></a>  {</span>
+<span id="cb36-16"><a href="#cb36-16" aria-hidden="true" tabindex="-1"></a>    x<span class="ot">=</span>points[<span class="dv">1</span>, <span class="st">"x1"</span>]<span class="sc">+</span><span class="fu">cos</span>(points[<span class="dv">1</span>, <span class="st">"alfa"</span>]<span class="sc">*</span>(pi<span class="sc">/</span><span class="dv">180</span>))</span>
+<span id="cb36-17"><a href="#cb36-17" aria-hidden="true" tabindex="-1"></a>    y<span class="ot">=</span>points[<span class="dv">1</span>, <span class="st">"y1"</span>]<span class="sc">+</span><span class="fu">sin</span>(points[<span class="dv">1</span>, <span class="st">"alfa"</span>]<span class="sc">*</span>(pi<span class="sc">/</span><span class="dv">180</span>))</span>
+<span id="cb36-18"><a href="#cb36-18" aria-hidden="true" tabindex="-1"></a>    points[<span class="dv">1</span>,<span class="st">"x2"</span>]<span class="ot">=</span>x</span>
+<span id="cb36-19"><a href="#cb36-19" aria-hidden="true" tabindex="-1"></a>    points[<span class="dv">1</span>,<span class="st">"y2"</span>]<span class="ot">=</span>y</span>
+<span id="cb36-20"><a href="#cb36-20" aria-hidden="true" tabindex="-1"></a>    <span class="fu">data.frame</span>(<span class="at">x1 =</span> x, <span class="at">y1 =</span> y, <span class="at">x2 =</span> <span class="cn">NA</span>, <span class="at">y2 =</span> <span class="cn">NA</span>,</span>
+<span id="cb36-21"><a href="#cb36-21" aria-hidden="true" tabindex="-1"></a>               <span class="at">alfa=</span>points[<span class="dv">1</span>, <span class="st">"alfa"</span>],</span>
+<span id="cb36-22"><a href="#cb36-22" aria-hidden="true" tabindex="-1"></a>               <span class="at">depth=</span>points[<span class="dv">1</span>,<span class="st">"depth"</span>]) <span class="sc">%&gt;%</span> <span class="fu">rbind</span>(points)<span class="ot">-&gt;</span>points</span>
+<span id="cb36-23"><a href="#cb36-23" aria-hidden="true" tabindex="-1"></a>  }</span>
+<span id="cb36-24"><a href="#cb36-24" aria-hidden="true" tabindex="-1"></a>  <span class="cf">if</span> (action <span class="sc">%in%</span> <span class="fu">c</span>(<span class="st">"+"</span>, <span class="st">"-"</span>)){</span>
+<span id="cb36-25"><a href="#cb36-25" aria-hidden="true" tabindex="-1"></a>    alfa<span class="ot">=</span>points[<span class="dv">1</span>, <span class="st">"alfa"</span>]</span>
+<span id="cb36-26"><a href="#cb36-26" aria-hidden="true" tabindex="-1"></a>    points[<span class="dv">1</span>, <span class="st">"alfa"</span>]<span class="ot">=</span><span class="fu">eval</span>(<span class="fu">parse</span>(<span class="at">text=</span><span class="fu">paste0</span>(<span class="st">"alfa"</span>,action, angle)))</span>
+<span id="cb36-27"><a href="#cb36-27" aria-hidden="true" tabindex="-1"></a>  }</span>
+<span id="cb36-28"><a href="#cb36-28" aria-hidden="true" tabindex="-1"></a>  <span class="cf">if</span>(action<span class="sc">==</span><span class="st">"["</span>){</span>
+<span id="cb36-29"><a href="#cb36-29" aria-hidden="true" tabindex="-1"></a>    <span class="fu">data.frame</span>(<span class="at">x=</span>points[<span class="dv">1</span>, <span class="st">"x1"</span>], <span class="at">y=</span>points[<span class="dv">1</span>, <span class="st">"y1"</span>], <span class="at">alfa=</span>points[<span class="dv">1</span>, <span class="st">"alfa"</span>]) <span class="sc">%&gt;%</span></span>
+<span id="cb36-30"><a href="#cb36-30" aria-hidden="true" tabindex="-1"></a>      <span class="fu">rbind</span>(status) <span class="ot">-&gt;</span> status</span>
+<span id="cb36-31"><a href="#cb36-31" aria-hidden="true" tabindex="-1"></a>    points[<span class="dv">1</span>, <span class="st">"depth"</span>]<span class="ot">=</span>points[<span class="dv">1</span>, <span class="st">"depth"</span>]<span class="sc">+</span><span class="dv">1</span></span>
+<span id="cb36-32"><a href="#cb36-32" aria-hidden="true" tabindex="-1"></a>  }</span>
+<span id="cb36-33"><a href="#cb36-33" aria-hidden="true" tabindex="-1"></a>  </span>
+<span id="cb36-34"><a href="#cb36-34" aria-hidden="true" tabindex="-1"></a>  <span class="cf">if</span>(action<span class="sc">==</span><span class="st">"]"</span>){</span>
+<span id="cb36-35"><a href="#cb36-35" aria-hidden="true" tabindex="-1"></a>    depth<span class="ot">=</span>points[<span class="dv">1</span>, <span class="st">"depth"</span>]</span>
+<span id="cb36-36"><a href="#cb36-36" aria-hidden="true" tabindex="-1"></a>    points[<span class="sc">-</span><span class="dv">1</span>,]<span class="ot">-&gt;</span>points</span>
+<span id="cb36-37"><a href="#cb36-37" aria-hidden="true" tabindex="-1"></a>    <span class="fu">data.frame</span>(<span class="at">x1=</span>status[<span class="dv">1</span>, <span class="st">"x"</span>], <span class="at">y1=</span>status[<span class="dv">1</span>, <span class="st">"y"</span>], <span class="at">x2=</span><span class="cn">NA</span>, <span class="at">y2=</span><span class="cn">NA</span>,</span>
+<span id="cb36-38"><a href="#cb36-38" aria-hidden="true" tabindex="-1"></a>               <span class="at">alfa=</span>status[<span class="dv">1</span>, <span class="st">"alfa"</span>],</span>
+<span id="cb36-39"><a href="#cb36-39" aria-hidden="true" tabindex="-1"></a>               <span class="at">depth=</span>depth<span class="dv">-1</span>) <span class="sc">%&gt;%</span></span>
+<span id="cb36-40"><a href="#cb36-40" aria-hidden="true" tabindex="-1"></a>      <span class="fu">rbind</span>(points) <span class="ot">-&gt;</span> points</span>
+<span id="cb36-41"><a href="#cb36-41" aria-hidden="true" tabindex="-1"></a>    status[<span class="sc">-</span><span class="dv">1</span>,]<span class="ot">-&gt;</span>status</span>
+<span id="cb36-42"><a href="#cb36-42" aria-hidden="true" tabindex="-1"></a>  }</span>
+<span id="cb36-43"><a href="#cb36-43" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb36-44"><a href="#cb36-44" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb36-45"><a href="#cb36-45" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>() <span class="sc">+</span></span>
+<span id="cb36-46"><a href="#cb36-46" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_segment</span>(<span class="fu">aes</span>(<span class="at">x =</span> x1, <span class="at">y =</span> y1, <span class="at">xend =</span> x2, <span class="at">yend =</span> y2),</span>
+<span id="cb36-47"><a href="#cb36-47" aria-hidden="true" tabindex="-1"></a>               <span class="at">lineend =</span> <span class="st">"round"</span>,</span>
+<span id="cb36-48"><a href="#cb36-48" aria-hidden="true" tabindex="-1"></a>               <span class="at">color=</span><span class="st">"grey"</span>, <span class="co"># Set your own Fall color?</span></span>
+<span id="cb36-49"><a href="#cb36-49" aria-hidden="true" tabindex="-1"></a>               <span class="at">data=</span><span class="fu">na.omit</span>(points)) <span class="sc">+</span></span>
+<span id="cb36-50"><a href="#cb36-50" aria-hidden="true" tabindex="-1"></a>  <span class="fu">coord_fixed</span>(<span class="at">ratio =</span> <span class="dv">1</span>) <span class="sc">+</span></span>
+<span id="cb36-51"><a href="#cb36-51" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_void</span>() <span class="co"># No grid nor axes</span></span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
+<div class="cell-output-display">
+<p><img src="Homework_files/figure-html/unnamed-chunk-7-1.png" class="img-fluid" width="672"></p>
+</div>
+</div>
 <section id="write-a-critique-on-a-chart-in-published-work" class="level2">
 <h2 class="anchored" data-anchor-id="write-a-critique-on-a-chart-in-published-work">4. Write a critique on a chart in published work</h2>
 <p>According to Nathan Yau, axes in a chart can significantly influence the interpretation of data, potentially distorting the intended message. For example, if the Y-axis range is artificially scaled down, variability in the data can be overemphasized, while if it is artificially scaled up, small differences can easily be overlooked.&nbsp;</p>
