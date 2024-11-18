@@ -124,5 +124,19 @@
     "title": "SunghyeData.github.io",
     "section": "3. Export the charts using different formats",
     "text": "3. Export the charts using different formats\n\na. .pdf\n\npdf(\"histogram_ozone.pdf\")\nhist(airquality$Ozone, main=\"Histogram of Ozone Levels\")\ndev.off()\n\nquartz_off_screen \n                2 \n\n\n\n\nb. .jpg\n\njpeg(\"scatterplot_ozone_wind.jpg\")\nplot(airquality$Ozone, airquality$Wind, main=\"Scatterplot of Ozone vs Wind\")\ndev.off()\n\nquartz_off_screen \n                2 \n\n\n\n\nc. .svg\n\nsvg(\"boxplot_temperature.svg\")\nboxplot(airquality$Temp, main=\"Boxplot of Temperature\")\ndev.off()\n\nquartz_off_screen \n                2 \n\n\n\n\nd. .tiff\n\ntiff(\"barchart_ozone.tiff\")\nbarplot(table(airquality$Ozone), main=\"Vertical Bar Chart of Ozone Levels\")\ndev.off()\n\nquartz_off_screen \n                2 \n\n\n\n\ne. .bmg\n\nbmp(\"piechart_month.bmp\")\npie(table(airquality$Month), main=\"Pie Chart of Measurements by Month\")\ndev.off()\n\nquartz_off_screen \n                2"
+  },
+  {
+    "objectID": "Homework.html#quarto",
+    "href": "Homework.html#quarto",
+    "title": "SunghyeData.github.io",
+    "section": "Quarto",
+    "text": "Quarto\nQuarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see https://quarto.org."
+  },
+  {
+    "objectID": "Homework.html#running-code",
+    "href": "Homework.html#running-code",
+    "title": "SunghyeData.github.io",
+    "section": "Running Code",
+    "text": "Running Code\nWhen you click the Render button a document will be generated that includes both content and the output of embedded code. You can embed code like this:\n{r}\n1 + 1\n\nYou can add options to executable code like this\n{r}\n#| echo: false\n2 * 2\n\nThe echo: false option disables the printing of code (only output is displayed)."
   }
 ]
